@@ -9,9 +9,6 @@ include vendor/xiaomi/miuicamera-lisa/vendor/BoardConfigVendor.mk
 
 MIUICAMERA_PATH := vendor/xiaomi/miuicamera-lisa
 
-# Camera
-TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
-
 # Properties
 TARGET_SYSTEM_PROP += $(MIUICAMERA_PATH)/system.prop
 
