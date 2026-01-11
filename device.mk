@@ -5,7 +5,7 @@
 #
 
 # Inherit from the proprietary version
-$(call inherit-product, vendor/xiaomi/miuicamera-lisa/vendor/vendor-vendor.mk)
+$(call inherit-product, vendor/xiaomi/miuicamera-haydn/vendor/vendor-vendor.mk)
 
 # Camera
 $(call soong_config_set,camera,override_format_from_reserved,true)

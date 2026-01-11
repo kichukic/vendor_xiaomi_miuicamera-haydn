@@ -3,7 +3,7 @@
 #
 
 PRODUCT_SOONG_NAMESPACES += \
-    vendor/xiaomi/miuicamera-lisa/vendor
+    vendor/xiaomi/miuicamera-haydn/vendor
 
 PRODUCT_PACKAGES += \
     libcamera_algoup_jni.xiaomi \

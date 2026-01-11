@@ -4,13 +4,13 @@
 
 soong_namespace {
     imports: [
-        "vendor/xiaomi/miuicamera-lisa",
+        "vendor/xiaomi/miuicamera-haydn",
     ],
 }
 
 cc_prebuilt_library_shared {
     name: "libcamera_algoup_jni.xiaomi",
-    owner: "xiaomi/miuicamera-lisa",
+    owner: "xiaomi/miuicamera-haydn",
     strip: {
         none: true,
     },
@@ -50,7 +50,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamera_mianode_jni.xiaomi",
-    owner: "xiaomi/miuicamera-lisa",
+    owner: "xiaomi/miuicamera-haydn",
     strip: {
         none: true,
     },
@@ -86,7 +86,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmicampostproc_client",
-    owner: "xiaomi/miuicamera-lisa",
+    owner: "xiaomi/miuicamera-haydn",
     strip: {
         none: true,
     },
@@ -126,7 +126,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.campostproc@1.0_system",
     stem: "vendor.xiaomi.hardware.campostproc@1.0",
-    owner: "xiaomi/miuicamera-lisa",
+    owner: "xiaomi/miuicamera-haydn",
     strip: {
         none: true,
     },
@@ -154,7 +154,7 @@ cc_prebuilt_library_shared {
 
 android_app_import {
     name: "MiuiCamera",
-    owner: "xiaomi/miuicamera-lisa",
+    owner: "xiaomi/miuicamera-haydn",
     apk: "proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk",
     certificate: "platform",
     dex_preopt: {
@@ -165,7 +165,7 @@ android_app_import {
 
 prebuilt_etc {
     name: "camera_cnf.txt",
-    owner: "xiaomi/miuicamera-lisa",
+    owner: "xiaomi/miuicamera-haydn",
     src: "proprietary/vendor/etc/camera/camera_cnf.txt",
     filename_from_src: true,
     sub_dir: "camera",
@@ -174,7 +174,7 @@ prebuilt_etc {
 
 prebuilt_etc {
     name: "st_license.lic",
-    owner: "xiaomi/miuicamera-lisa",
+    owner: "xiaomi/miuicamera-haydn",
     src: "proprietary/vendor/etc/camera/st_license.lic",
     filename_from_src: true,
     sub_dir: "camera",
