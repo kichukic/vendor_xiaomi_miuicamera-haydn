@@ -156,6 +156,10 @@ android_app_import {
     name: "MiuiCamera",
     owner: "xiaomi/miuicamera-haydn",
     apk: "proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk",
+    overrides: [
+        "GoogleCameraGo",
+        "Aperture",
+    ],
     certificate: "platform",
     dex_preopt: {
         enabled: false,
